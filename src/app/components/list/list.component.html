@@ -1,0 +1,6 @@
+<div class="container">
+    <app-digi-card *ngFor="let digi of digiArray"
+    [name]="digi.name"
+    [img]="digi.image"></app-digi-card>
+    <div class="button" (click)="loadMore()"><span>more...</span></div>
+</div>
